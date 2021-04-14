@@ -2,6 +2,17 @@ p {
   margin-top: 5px;
   margin-right: 5px;
   margin-bottom: 0;
+  pointer-events: none;
+}
+button {
+  background-color: white;
+  border-radius: 5px;
+  outline: unset;
+  border-width: 1px;
+  height: 20px;
+}
+button:nth-child(2) {
+  width: 50px;
 }
 .container {
   padding: 40px;
@@ -36,7 +47,7 @@ p {
   width: 100%;
 }
 
-.container .body .week {
+.container .body .month {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -48,6 +59,19 @@ p {
   color: white;
   text-align: left;
   font-weight: bold;
+  border-radius: 3px;
+  margin: 0 5px;
+  padding-left: 5px;
+}
+.event {
+  font-size: 12px;
+  background: #40caf8;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+  border-radius: 3px;
+  margin: 0 5px;
+  padding-left: 5px;
 }
 .today {
   border-radius: 25px;
@@ -61,7 +85,7 @@ p {
 .greyColorDay {
   color: grey;
 }
-.container .body .week > div {
+.container .body .month > div {
   width: calc(100% / 7);
   height: 100px;
   text-align: end;
@@ -69,53 +93,29 @@ p {
   border-right: 1px solid grey;
   box-sizing: border-box;
 }
-.container .body .week > div:nth-child(1),
-.container .body .week > div:nth-child(2),
-.container .body .week > div:nth-child(3),
-.container .body .week > div:nth-child(4),
-.container .body .week > div:nth-child(5),
-.container .body .week > div:nth-child(6),
-.container .body .week > div:nth-child(7) {
+.container .body .month > div:nth-child(1),
+.container .body .month > div:nth-child(2),
+.container .body .month > div:nth-child(3),
+.container .body .month > div:nth-child(4),
+.container .body .month > div:nth-child(5),
+.container .body .month > div:nth-child(6),
+.container .body .month > div:nth-child(7) {
   border-top: 1px solid grey;
 }
-.container .body .week > div:nth-child(1),
-.container .body .week > div:nth-child(8),
-.container .body .week > div:nth-child(15),
-.container .body .week > div:nth-child(22),
-.container .body .week > div:nth-child(29),
-.container .body .week > div:nth-child(36) {
+.container .body .month > div:nth-child(1),
+.container .body .month > div:nth-child(8),
+.container .body .month > div:nth-child(15),
+.container .body .month > div:nth-child(22),
+.container .body .month > div:nth-child(29),
+.container .body .month > div:nth-child(36) {
   border-left: 1px solid grey;
-  background-color: #f7e4dd;
+  background-color: #f5f5f5;
 }
-.container .body .week > div:nth-child(7),
-.container .body .week > div:nth-child(14),
-.container .body .week > div:nth-child(21),
-.container .body .week > div:nth-child(28),
-.container .body .week > div:nth-child(35),
-.container .body .week > div:nth-child(42) {
-  background-color: #f7e4dd;
+.container .body .month > div:nth-child(7),
+.container .body .month > div:nth-child(14),
+.container .body .month > div:nth-child(21),
+.container .body .month > div:nth-child(28),
+.container .body .month > div:nth-child(35),
+.container .body .month > div:nth-child(42) {
+  background-color: #f5f5f5;
 }
-
-/* .container .body .week1,
-.container .body .week2,
-.container .body .week3,
-.container .body .week4,
-.container .body .week5,
-.container .body .week6 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  height: 100px;
-  justify-content: space-between;
-}
-
-.container .body .week1 > div,
-.container .body .week2 > div,
-.container .body .week3 > div,
-.container .body .week4 > div,
-.container .body .week5 > div,
-.container .body .week6 > div {
-  flex: 1;
-  text-align: end;
-} */
