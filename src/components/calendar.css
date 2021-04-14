@@ -1,0 +1,121 @@
+p {
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 0;
+}
+.container {
+  padding: 40px;
+  max-width: 1000px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.date,
+.pageNavi {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.container .day {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container .day > div {
+  text-align: end;
+  width: 100%;
+}
+
+.container .body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.container .body .week {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.holiday {
+  font-size: 12px;
+  background: #ff7272;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+.today {
+  border-radius: 25px;
+  background: red;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  text-align: center;
+  color: white;
+}
+.greyColorDay {
+  color: grey;
+}
+.container .body .week > div {
+  width: calc(100% / 7);
+  height: 100px;
+  text-align: end;
+  border-bottom: 1px solid grey;
+  border-right: 1px solid grey;
+  box-sizing: border-box;
+}
+.container .body .week > div:nth-child(1),
+.container .body .week > div:nth-child(2),
+.container .body .week > div:nth-child(3),
+.container .body .week > div:nth-child(4),
+.container .body .week > div:nth-child(5),
+.container .body .week > div:nth-child(6),
+.container .body .week > div:nth-child(7) {
+  border-top: 1px solid grey;
+}
+.container .body .week > div:nth-child(1),
+.container .body .week > div:nth-child(8),
+.container .body .week > div:nth-child(15),
+.container .body .week > div:nth-child(22),
+.container .body .week > div:nth-child(29),
+.container .body .week > div:nth-child(36) {
+  border-left: 1px solid grey;
+  background-color: #f7e4dd;
+}
+.container .body .week > div:nth-child(7),
+.container .body .week > div:nth-child(14),
+.container .body .week > div:nth-child(21),
+.container .body .week > div:nth-child(28),
+.container .body .week > div:nth-child(35),
+.container .body .week > div:nth-child(42) {
+  background-color: #f7e4dd;
+}
+
+/* .container .body .week1,
+.container .body .week2,
+.container .body .week3,
+.container .body .week4,
+.container .body .week5,
+.container .body .week6 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100px;
+  justify-content: space-between;
+}
+
+.container .body .week1 > div,
+.container .body .week2 > div,
+.container .body .week3 > div,
+.container .body .week4 > div,
+.container .body .week5 > div,
+.container .body .week6 > div {
+  flex: 1;
+  text-align: end;
+} */
