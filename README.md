@@ -16,13 +16,7 @@ React JS Fundamentals Calender
 
 ## Try it out
 
-[https://isz01122.github.io/calender](https://isz01122.github.io/calender)
-
-## Available Scripts
-
-In the project directory, you can run:
-
-## `yarn start`
-
+npm install
+yarn start
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
