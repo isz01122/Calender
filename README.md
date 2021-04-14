@@ -13,7 +13,7 @@ React JS Fundamentals Calender
   - [x] Add schedules
   - [ ] Delete schedules
   - [ ] Keep data until browser refreshes
-  - [ ] 
+
 ## Preview
 <a href="url">
   <img src="https://user-images.githubusercontent.com/43328761/114760439-44385900-9d9a-11eb-94cc-b846e1ce39af.png" width="640" height="480">
