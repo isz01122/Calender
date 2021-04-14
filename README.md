@@ -1,15 +1,6 @@
-# Card Maker
+# Calender
 
 React JS Fundamentals Calender
-
-## Preview
-<a href="url">
-  <img src="https://user-images.githubusercontent.com/43328761/114760439-44385900-9d9a-11eb-94cc-b846e1ce39af.png" width="450" height="350">
-  <img src="https://user-images.githubusercontent.com/43328761/114760790-ae50fe00-9d9a-11eb-956a-ee0585a31701.png" width="450" height="350">
-  <img src="https://user-images.githubusercontent.com/43328761/114760877-c9237280-9d9a-11eb-9ada-3561aca3447b.png" width="450" height="350">
-  <img src="https://user-images.githubusercontent.com/43328761/114761231-29b2af80-9d9b-11eb-89ac-f3e53e3d2838.png" width="450" height="350">
-</a>
-
 
 ## Features
 
@@ -22,6 +13,14 @@ React JS Fundamentals Calender
   - [x] Add schedules
   - [ ] Delete schedules
   - [ ] Keep data until browser refreshes
+  - [ ] 
+## Preview
+<a href="url">
+  <img src="https://user-images.githubusercontent.com/43328761/114760439-44385900-9d9a-11eb-94cc-b846e1ce39af.png" width="640" height="480">
+  <img src="https://user-images.githubusercontent.com/43328761/114760790-ae50fe00-9d9a-11eb-956a-ee0585a31701.png" width="640" height="480">
+  <img src="https://user-images.githubusercontent.com/43328761/114760877-c9237280-9d9a-11eb-9ada-3561aca3447b.png" width="640" height="480">
+  <img src="https://user-images.githubusercontent.com/43328761/114761231-29b2af80-9d9b-11eb-89ac-f3e53e3d2838.png" width="640" height="480">
+</a>
 
 ## Try it out
 
