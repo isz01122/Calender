@@ -20,7 +20,8 @@ const Calendar = () => {
   const [holidayIndex, setHolidayIndex] = useState();
   const [isloading, setIsloading] = useState(false);
   const newDate = `${year}년 ${month}월`;
-  const apiKey = process.env.REACT_APP_API_KEY;
+  const apiKey =
+    '0FpsfZ1B%2Fdvq1vp1e3FVJvC3c7ahRMgegA27sJVws%2FT6psvSAWMTt%2Fk242B5AjdbxNx8BMgwS43kEUnG38Z%2BtA%3D%3D';
 
   //지난달 마지막 date, 이번달 마지막 date
   const prevLast = new Date(year, month - 1, 0);
